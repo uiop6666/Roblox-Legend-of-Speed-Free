@@ -1,3 +1,4 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "by rk06", 	Text = "不加密的后果 源码被我开了", 	Duration = 10 })
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/REDz-ui/refs/heads/main/REDzGui"))()
 
 local Window = redzlib:MakeWindow({
